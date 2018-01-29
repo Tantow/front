@@ -1,0 +1,219 @@
+@font-face {
+    font-family: Abuget;
+    src: url(/font/Abuget.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: #eee;
+    color: #252525;
+    height: 100%;
+    min-height: 100%;
+}
+
+/* LOGIN */
+
+.login-container, .cadastro-container {
+    padding: 40px 0px 50px 0px;
+    text-align: center;
+    max-width: 400px;
+    display: block;
+    margin: 50px auto;
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px #aaaaaa;
+}
+
+.login-container input, .cadastro-container input{
+    box-sizing: border-box;
+    padding: 10px;
+    display: block;
+    font-size: 1em;
+    margin: 20px auto 0px auto;
+    width: 60%;
+    border: 1px solid #252525;
+}
+
+.login-container input:hover, .cadastro-container input:hover{
+    border: 1px solid #f5db7b;
+}
+
+.login-btn, .cadastro-btn {
+    background-color: #f5db7b;
+    border: 1px solid #f5db7b;
+    font-weight: bold;
+    color: #252525;
+    transition: 0.5s;
+    
+}
+
+.login-btn:hover, .cadastro-btn:hover {
+    transition: 0.5s;
+    width: 70%;
+    cursor:pointer;
+}
+
+
+
+.botoes-container {
+    padding: 40px 50px;
+    display: compact;
+    float: right;
+}
+
+.botoes-container a {
+    text-decoration: none;
+    color: #252525;
+}
+
+.voltar-btn, .cadastrar-btn, .logar-btn {
+    display: inline;
+    margin: 10px;
+    background-color: #f5db7b;
+    border: 1px solid #f5db7b;
+    font-weight: bold;
+    color: #252525;
+    transition: 0.5s;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.voltar-btn:hover, .cadastrar-btn:hover, .logar-btn:hover {
+    background-color: #FAE69D;
+    border: 1px solid #FAE69D;
+}
+
+
+/* CADASTRO */
+
+.pessoa-fisica-btn, .pessoa-juridica-btn {
+    font-size: 1em;
+    display: inline;
+    margin: 5px;
+    background-color: #f5db7b;
+    border: 1px solid #f5db7b;
+    font-weight: bold;
+    color: #252525;
+    transition: 0.5s;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.pessoa-fisica-btn{
+    background-color: #FAE69D;
+    border: 1px solid #252525;
+}
+
+.logar-btn:hover {
+    background-color: #FAE69D;
+    border: 1px solid #FAE69D;
+    cursor:pointer;
+}
+
+.pessoa-fisica-btn:hover, .pessoa-juridica-btn:hover{
+    cursor:pointer;
+}
+
+.fisica-juridica-container {
+    margin: 30px 10px;
+    max-width: 100%;
+}
+
+.pessoa-juridica {
+    display: none;
+}
+
+/* HEADER */
+
+.header {
+    max-width: 100%;
+    background-color: #03303f;
+}
+
+.header-container {
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+
+
+.header-container p {
+    font-family: 'Quicksand', sans-serif;
+    padding: 30px 0px;
+    margin: 0px 10px;
+    float: right;
+    color: #fafafa;
+    font-size: 1.125em;
+    display: inline-block;
+}
+.header-container p:hover {
+    color: #FAE69D;
+}
+
+.header-container::after, .header-container::before {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.titulo {
+    font-family: Abuget;
+    color: #fafafa;
+    font-size: 4em ;
+    display: inline-block;
+}
+
+/* FOOTER */
+
+.footer {
+    margin-top: 100px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #03303f;
+    height: 80px;
+    display: inline-block;
+}
+
+
+.footer-container {
+    max-width: 960px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.footer-container p {
+    
+    font-family: 'Quicksand', sans-serif;
+    color: #fafafa;
+    font-size: 1.4em ;
+    float: none;
+}
+
+.fab {
+    float: right;
+    text-decoration: none;
+    color: #fafafa;
+}
+
+/* CAROUSEL */
+
+#livros-principais .owl-carousel .owl-item {
+	*height: calc(100% - 100px) !important;
+	overflow: hidden;
+}
+
+
+.owl-carousel img {
+  margin: 20px;
+  max-width: 40px;
+}
+
+
+/* PAGINA LIVRO */

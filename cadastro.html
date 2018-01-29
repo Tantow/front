@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="css/fa-svg-with-js.css">
+        <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+        <script type="text/javascript" src="js/sweetalert.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mask.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src = "js/fontawesome-all.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-container">
+                <a href="home.html"><div class="titulo">Potato Books</div></a>
+                <a href="login.html"><p>login</p></a>
+                <a href="cadastro.html"><p>Cadastro</p></a>
+                <p>Promoções</p>
+                <p>Mais vendidos</p>
+                <p>Novidades</p>
+                <p>Categorias</p>
+            </div>
+        </header>
+        <form class="cadastro-container">
+            <h1>cadastrar</h1>
+            <div class="fisica-juridica-container">
+                <div class="pessoa-fisica-btn">pessoa física</div>
+                <div class="pessoa-juridica-btn">pessoa jurídica</div>
+            </div>
+            <div class="pessoa-fisica">
+                <input type="text" placeholder="Nome" class="nome" />
+                <input type="text" placeholder="CPF" id="cpf" />
+            </div>
+            <div class="pessoa-juridica">
+                <input type="text" placeholder="Nome fantasia" class="nome-fantasia" />
+                <input type="text" placeholder="CNPJ" id="cnpj" />
+            </div>
+            <input type="text" placeholder="E-mail" class="email" />
+            <input type="password" placeholder="Senha" class="senha" />
+            <input type="password" placeholder="Confirmar senha" class="confirmacao-senha" />
+            <input type="submit" value="Cadastrar" class="cadastro-btn" />
+        </form>
+        <footer class="footer">
+            <div class="footer-container">
+                <p>&copy; Batatão<p>
+                <i class="fab fa-facebook-square"></i>
+            </div>
+        </footer>
+    </body>
+</html>
